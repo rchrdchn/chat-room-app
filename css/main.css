@@ -1,0 +1,14 @@
+.colorMe {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+}
+
+.color {
+	background-color: #555;
+}
