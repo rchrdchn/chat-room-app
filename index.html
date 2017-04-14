@@ -32,25 +32,30 @@
 	<link href="css/main.css" rel="stylesheet">
 	
 	<!-- TITLE -->
-	<title>Week 9</title>
+	<title>Chat App</title>
 
 </head>
 
-<body>
+<body id="body">
 
-	<!-- <div id="change" class="colorMe"></div>
-	<button onclick="myColor()">Click to change</button> -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center">Chatting with myself!</h1>
+			</div>
+			  	<div class="col-md-6 col-md-offset-3">
+				    <div class="input-group">
+				      	<input type="text" class="form-control" id="message" placeholder="Write here...">
+				      	<span class="input-group-btn">
+				        	<button class="btn btn-default" onclick="messageMe()" type="button">Send</button>
+				    	</span>
+			   		</div><!-- /input-group -->
+				</div><!-- /.col-md-6 -->
+			</div>
+		</div>
+	</div>
 
-<!-- 	<div id="adding"></div>
-	<button onclick="create()">Add now!</button> -->
 
-<!-- 	<div id="node"></div>
-	<button onclick="noding()">Add me now</button>
- -->
-<!-- 
-	<img src="images/development1.jpg" id="imageMe" alt="">
-	<br>
-	<button onclick="changeImg()">Change Image with this button</button> -->
 	<!-- JQUERY -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	
