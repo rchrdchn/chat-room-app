@@ -15,14 +15,11 @@
 
 function messageMe() {
 	var write = document.getElementById("message").value.toLowerCase();
-	var div = document.createElement("div");
 	var addText = document.createElement("h3");
+	var div = document.createElement("div");
 	var addToBody = document.getElementById("body");
 	
-	write.innerHTML = "hey";
-	
-	console.log(write);
-
+	addText.innerHTML = write;
 	div.appendChild(addText);
-	body.appendChild(div);
+	addToBody.appendChild(div);
 }

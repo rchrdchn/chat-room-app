@@ -1,14 +1,14 @@
-.colorMe {
-	width: 100px;
-	height: 100px;
-	background-color: blue;
+* {
+	font-family: "Futura", "Helvetica", sans-serif;
+	background-color: #999;
 }
+/* 
+#box {
+	background-color: #666;
+	border: 1px solid #000;
+	opacity: 0.3;
+} */
 
-.square {
-	width: 100px;
-	height: 100px;
-}
-
-.color {
-	background-color: #555;
+#box {
+	margin-bottom: 80px;
 }
