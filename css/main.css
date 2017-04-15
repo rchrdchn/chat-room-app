@@ -1,6 +1,8 @@
 * {
 	font-family: "Futura", "Helvetica", sans-serif;
-	background-color: #999;
+	background-color: #3F51B5;
+	margin: 0;
+	padding: 0;
 }
 /* 
 #box {
@@ -11,4 +13,28 @@
 
 #box {
 	margin-bottom: 80px;
+}
+
+.app-name {
+	margin-top: 30px;
+	color: #fff;
+	letter-spacing: 1.5px;
+}
+
+#body {
+	color: #222;
+}
+
+.box-me {
+	padding: 0px 20px;
+	background-color: #ECEFF1;
+	border: #333 solid 1px;
+	border-radius: 10px 10px 10px 1px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.box-me h3 {
+	background-color: #ECEFF1;
+	margin-top: 10px !important;
 }
