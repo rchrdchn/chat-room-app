@@ -16,9 +16,14 @@
 }
 
 .app-name {
-	margin-top: 30px;
+	margin-top: 20px;
 	color: #fff;
 	letter-spacing: 1.5px;
+	background-color: #111;
+	opacity: 0.5;
+	padding: 10px 0px;
+	border-radius: 15px;
+	/* border: solid #222 1px; */
 }
 
 #body {
@@ -27,7 +32,7 @@
 
 .box-me {
 	padding: 0px 20px;
-	background-color: #ECEFF1;
+	background-color: #9CCC65;
 	border: #333 solid 1px;
 	border-radius: 10px 10px 10px 1px;
 	margin-bottom: 10px;
@@ -35,6 +40,10 @@
 }
 
 .box-me h3 {
-	background-color: #ECEFF1;
+	background-color: #9CCC65;
 	margin-top: 10px !important;
+}
+
+.heart {
+	color: red;
 }
