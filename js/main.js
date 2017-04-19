@@ -37,7 +37,6 @@ function messageMe() {
 $("#message").on("keypress", function(e) {
 	if (e.which === 13) {
 		messageMe();
-		this.val();
 	}
 });
 
